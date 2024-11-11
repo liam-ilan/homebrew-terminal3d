@@ -12,6 +12,6 @@ class Terminal3d < Formula
   end
 
   test do
-    system "true"
+    assert_match /^0.0.3$/, shell_output("#{bin}/ghloc --version")
   end
 end
