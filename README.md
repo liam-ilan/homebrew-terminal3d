@@ -1,18 +1,17 @@
-# Liam-ilan Terminal3d
+# Terminal3d Brew Tap
+This is the brew tap for [Terminal3d](https://github.com/liam-ilan/terminal3d).
 
-## How do I install these formulae?
-
-`brew install liam-ilan/terminal3d/<formula>`
-
-Or `brew tap liam-ilan/terminal3d` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "liam-ilan/terminal3d"
-brew "<formula>"
+## Installation
+Install terminal3d with
+```sh
+brew install liam-ilan/terminal3d/terminal3d
 ```
 
-## Documentation
+## Alternative Installation
+Check out the [main repository](https://github.com/liam-ilan/terminal3d) for other installation methods.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Publishing Procedure
+Publishing process documentation can be found in the main repo under [`PUBLISHING.md`](https://github.com/liam-ilan/terminal3d/blob/main/PUBLISHING.md). This is mostly documentation for the current maintainer of this tap.
+
+## Author
+(c) [Liam Ilan](https://www.liamilan.com/)
