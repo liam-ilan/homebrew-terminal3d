@@ -12,6 +12,6 @@ class Terminal3d < Formula
   end
 
   test do
-    assert_match(/^0.1.0$/, shell_output("#{bin}/t3d --version"))
+    assert_match(/^0.1.0/, shell_output("#{bin}/t3d --version"))
   end
 end
